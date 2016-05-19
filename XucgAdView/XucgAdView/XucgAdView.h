@@ -4,7 +4,7 @@
 //
 //  Created by xucg on 5/18/16.
 //  Copyright © 2016 xucg. All rights reserved.
-//
+//  Welcome visiting https://github.com/gukemanbu/XucgAdView
 
 #import <UIKit/UIKit.h>
 
