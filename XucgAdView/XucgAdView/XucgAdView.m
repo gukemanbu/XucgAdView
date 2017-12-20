@@ -54,6 +54,7 @@
 -(void) startTimer {
     if (_timer) {
         [_timer invalidate];
+        _timer = nil;
     }
     
     _timer = [NSTimer scheduledTimerWithTimeInterval:_interval target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
@@ -92,6 +93,7 @@
 -(void) scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     if (_timer) {
         [_timer invalidate];
+        _timer = nil;
     }
 }
 
